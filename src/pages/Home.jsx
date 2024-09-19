@@ -1,8 +1,11 @@
+import marioTwo from '../images/mario-2.jpg';
+
 export default function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      <img src="/images/mario-1.jpg" alt="mario-1" />
+      <img style={{ width: '100%' }} src={"/images/mario-1.jpg"} alt="mario-1" />
+      <img style={{ width: '100%' }} src={marioTwo} alt="mario-2" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
